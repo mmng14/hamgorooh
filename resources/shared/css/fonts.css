@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Iransans;
+    src:url('fonts/IRANSansWeb.eot') format('eot'),
+      url('fonts/IRANSansWeb_Bold.eot') format('eot'),
+      url('fonts/IRANSansWeb.ttf') format('truetype'),
+      url('fonts/IRANSansWeb_Bold.ttf') format('truetype'),
+      url('fonts/IRANSansWeb.woff') format('woff'),
+      url('fonts/IRANSansWeb_Bold.woff') format('woff'),
+      url('fonts/IRANSansWeb.woff2') format('woff2'),
+      url('fonts/IRANSansWeb_Bold.woff2') format('woff2');
+  }
+
+@font-face {
+    font-family: IransansFa;
+    src: url('fonts/IRANSansWeb_FaNum_Light.eot') format('eot'),
+    url('fonts/IRANSansWeb_FaNum_Light.ttf') format('truetype'),
+    url('fonts/IRANSansWeb_FaNum_Light.woff') format('woff'),
+    url('fonts/IRANSansWeb_FaNum_Light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: BYekan;
+  	src: url(fonts/BYekan.eot); /* IE9 Compat Modes */
+  	src: url('fonts/BYekan.eot?#iefix') format('embedded-opentype'),  /* IE6Ã¢â‚¬â€œ8 */
+	url('fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('fonts/BYekan.ttf') format('truetype');   /* Saf3Ã¢â‚¬â€�5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('fonts/Vazir.eot');
+    src: url('fonts/Vazir.eot?#iefix') format('embedded-opentype'), url('fonts/Vazir.woff') format('woff'), url('fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+  font-family:"BMitra";
+  src: url('fonts/BMitra.eot'); /* IE9 Compat Modes */
+  src: url('fonts/BMitra.eot?#iefix') format('embedded-opentype'),  /* IE6Ã¢â‚¬â€œ8 */
+       url('fonts/BMitra.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('fonts/BMitra.ttf') format('truetype');  /* Saf3Ã¢â‚¬â€�5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+  font-family:"BZar";
+  src: url('fonts/BZar.eot'); /* IE9 Compat Modes */
+  src: url('fonts/BZar.eot?#iefix') format('embedded-opentype'),  /* IE6Ã¢â‚¬â€œ8 */
+       url('fonts/BZar.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('fonts/BZar.ttf') format('truetype');  /* Saf3Ã¢â‚¬â€�5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+  font-family:"BLotus";
+  src: url('fonts/BLotus.eot'); /* IE9 Compat Modes */
+  src: url('fonts/BLotus.eot?#iefix') format('embedded-opentype'),  /* IE6Ã¢â‚¬â€œ8 */
+       url('fonts/BLotus.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('fonts/BLotus.ttf') format('truetype');  /* Saf3Ã¢â‚¬â€�5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+  font-family:"BTitr";
+  src: url('fonts/BTitrBold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/BTitrBold.eot?#iefix') format('embedded-opentype'),  /* IE6Ã¢â‚¬â€œ8 */
+       url('fonts/BTitrBold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('fonts/BTitrBold.ttf') format('truetype');  /* Saf3Ã¢â‚¬â€�5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+  font-family:"BMitraB";
+  src: url('fonts/BMITRABD.eot'); /* IE9 Compat Modes */
+  src: url('fonts/BMITRABD.eot?#iefix') format('embedded-opentype'),  /* IE6Ã¢â‚¬â€œ8 */
+       url('fonts/BMITRABD.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('fonts/BMitraBd.ttf') format('truetype');  /* Saf3Ã¢â‚¬â€�5, Chrome4+, FF3.5, Opera 10+ */
+}

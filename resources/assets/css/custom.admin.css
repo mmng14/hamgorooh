@@ -1,0 +1,82 @@
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+#myDiv {
+    display: none;
+    text-align: center;
+}
+.block-btn{
+    padding-left: 4px !important;
+}
+
+.btn-search{
+    padding: 15px 10px !important;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.btn-link-custom{
+    padding-right:16px; 
+    padding-left:16px;
+}
+
+.post-file-upload{
+    margin-right: 8000px;;
+    display: none;
+}
+
+.upload-lable-btn{
+    display: block;
+    clear: both;
+}
+
+/*  overide */
+.btn-success {
+    color: #ffffff;
+    background-color:#095795;
+    border-color: #095795;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color:#4cb844;
+    border-color:#4cb844;
+}
+
+.pagination-total-rows{
+    background-color:#eee;
+}
+
+
+.active-toggle{
+    font-size: 40px;
+    color: #45A163;
+    cursor: pointer;
+  
+  }
+  
+  .deactive-toggle {
+    font-size: 40px;
+    color: #aaa;
+    cursor: pointer;
+  }
+
+  .list-ctrl-icon{
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  a.btn-md {
+    padding: 1rem 3.5rem;
+    font-size: 0.75rem;
+    border-radius: 0.3rem;
+}
+
+.color-white{
+
+    color: #ffffff;
+}

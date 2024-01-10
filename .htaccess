@@ -1,0 +1,36 @@
+  ErrorDocument 404 /index.php
+  Options +FollowSymLinks
+  Options -MultiViews
+
+  #SecRequestBodyAccess Off
+  <Limit GET POST OPTIONS PROPFIND>
+      Order allow,deny
+      Allow from all
+  </Limit>
+
+
+  RewriteEngine On
+
+
+#  RewriteCond %{HTTP_HOST} !^www\.
+#  RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+  # Force SSL
+  RewriteCond     %{SERVER_PORT} ^80$
+  RewriteRule     ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
+
+  RewriteCond %{SCRIPT_FILENAME} !-d
+  RewriteCond %{SCRIPT_FILENAME} !-f
+  
+  RewriteRule ^([\s\S]*)$ ./index.php?url=$1
+  RewriteRule ^/([\s\S]*)$ ./index.php?url=$1
+
+  #RewriteRule ^(.*)$ ./PostController.php?url=$1
+  #RewriteRule ^/(.*)$ ./PostController.php?url=$1
+  
+  #For Security
+  #RewriteRule ^users/(\d+)*$ ./profile.php?id=$1
+  #RewriteRule ^threads/(\d+)*$ ./thread.php?id=$1
+
+
+  
